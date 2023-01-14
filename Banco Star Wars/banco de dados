@@ -1,0 +1,22 @@
+create database caixa42;
+use caixa42;
+create table conta(
+	nconta int not null auto_increment,
+	nome varchar(50) not null,
+	cidade varchar(50) not null,
+	cpf char(11) not null,
+	telefone int not null,
+	saldo decimal(10,2) not null,
+	senha int not null,
+	primary key(nconta)
+);
+create table movimentacao(
+	id int not null auto_increment,
+	tipo varchar(50) not null,
+	valor decimal(10,2) not null,
+	nconta int not null,
+	senha int not null,
+	contadestino int,
+	primary key(id),
+	foreign key(nconta)references conta(nconta)
+);

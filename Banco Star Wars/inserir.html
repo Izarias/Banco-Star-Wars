@@ -1,0 +1,41 @@
+<!DOCTYPEhtml>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Banco STAR-WARS</title>
+		<link rel="stylesheet" type="text/css" href="estilo2.css">
+	</head>
+	<body>
+		<form action="movimentar.php" method="post">
+			<center>
+			<h2>Saques, Depósitos e Transferências</h2>
+			<table>
+				<tr>
+					<td>
+						Tipo de movimentação: <select name="tipo">
+							<option value="saque">saque</option>
+							<option value="deposito">depósito</option>
+							<option value="transferencia">transferência</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>Valor: <input type="text" name="valor"/></td>
+				</tr>
+				<tr>
+					<td>N° de sua Conta: <input type="text" name="nconta"/></td>
+				</tr>
+				<tr>
+					<td>Senha: <input type="text" name="senha" /></td>
+				</tr>
+				<tr>
+					<td>Conta Destino: (se necessário) <input type="text" name="contadestino"/></td>
+				</tr>
+				<tr>
+					<td><center><input type="submit" value="Movimentar" /></center></td>
+				</tr>
+			</table>
+			</center>
+		</form>
+	</body>
+</html>

@@ -1,0 +1,40 @@
+body{
+	color:#0000FF;
+	background-image:url('fundo.jpg');
+	font-family:"Trebuchet MS";
+	font-size:17px ;
+}
+#cabecalho{
+	padding: 0px;
+	width:1300px ;
+	height:130px ;
+	background-color:black ;
+	box-shadow:0px 0px 20px #0000FF;
+	
+}
+#conteudo{
+	background-color: grey;
+	height:600px ;
+	width:1000px ;	
+	margin: 10px 0px 0px 0px;
+}
+#cadastrar{
+	position: absolute;
+	margin:50px 0px 10px 60px ;
+	text-decoration: none;
+}
+#inserir{
+	position: absolute;
+	margin:50px 0px 0px 300px ;
+	text-decoration: none;
+}
+#sobre{
+	position: absolute;
+	margin:50px 0px 0px 1130px ;
+	text-decoration: none;
+}
+#selecionar{
+	position: absolute;
+	margin:50px 0px 0px 900px ;
+	text-decoration: none;
+}
